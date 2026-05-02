@@ -47,12 +47,12 @@ section h2
 
 .Cabecera
 {
-  width:100%;
+   width: 100vw;
   height: 100vh;
- background-size: cover;
+  background-image: url('https://placedog.net/4000/400');
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
- background:url('https://placedog.net/4000/400');
 }
 
 .formulario
