@@ -50,9 +50,9 @@ section h2
    width: 100vw;
   height: 100vh;
   background-image: url('https://placedog.net/4000/400');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+  background-size: cover!important;
+  background-repeat: no-repeat!important;
+  background-position: center!important;
 }
 
 .formulario
