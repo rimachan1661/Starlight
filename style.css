@@ -48,7 +48,7 @@ section h2
 .Cabecera
 {
   width:100%;
-  height:400px;
+  height: 100vh;
  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
