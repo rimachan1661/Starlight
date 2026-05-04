@@ -80,33 +80,30 @@
               <div class="mb-3">
             <form action="RegistroServlet" method="post">
             <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-            <input  type="email" class="form-control col-smid="exampleFormControlInput1" placeholder="name@example.com"></input>
+            <input  type="text" class="form-control col-smid="exampleFormControlInput1" placeholder="nickusuario" name="nombre"></input>
             <br>
             <label for="nombreUsuario" class="form-label">Género</label>                                    
-            <select class="form-select" aria-label="Default select example" style="width:100px!important">
+            <select class="form-select" aria-label="Default select example" style="width:100px!important" name="genero">
                 <option selected></option>
-                <option value="1">Mujer</option>
-                <option value="2">Hombre</option>
-                <option value="3">Otro</option>
-            </select>
-              <br>                                       <label for="emailUsuario" class="form-label">Email address</label>
-            <input  type="email" class="form-control col-smid="exampleFormControlInput1" placeholder="name@example.com"></input>
-                                                                                                             
+                <option value="Mujer">Mujer</option>
+                <option value="Hombre">Hombre</option>
+                <option value="Otro">Otro</option>
+            </select>                                                                                               
             <br>                                       
             <label for="exampleFormControlInput1" class="form-label">Email</label>
-            <input  type="email" class="form-control col-smid="exampleFormControlInput1" placeholder="name@example.com"></input>
+            <input  type="email" class="form-control col-smid="exampleFormControlInput1" placeholder="name@example.com" name="email"></input>
           <br>                                       
           <label for="exampleFormControlInput1" class="form-label">Teléfono</label>
-          <input  type="email" class="form-control col-smid="exampleFormControlInput1" placeholder="name@example.com"></input>
+          <input  type="text" class="form-control col-smid="exampleFormControlInput1" placeholder="966502030" name="telefono"></input>
           <br>                                       
           <label for="exampleFormControlInput1" class="form-label">Fecha de nacimiento</label>
-          <input  type="email" class="form-control col-smid="exampleFormControlInput1" placeholder="name@example.com"></input>
+          <input  type="date" class="form-control col-smid="exampleFormControlInput1" placeholder="DD/MM/YYYY" name="fechanacimiento"></input>
           <br>                                       
-          <label for="exampleFormControlInput1" class="form-label">Confirmar contraseña</label>
-          <input  type="email" class="form-control col-smid="exampleFormControlInput1" placeholder="name@example.com"></input>
+          <label for="exampleFormControlInput1" class="form-label">Contraseña</label>
+          <input  type="text" class="form-control col-smid="exampleFormControlInput1" placeholder="contrasenya" name="contrasenya"></input>
           <br>
           <label for="exampleFormControlInput1" class="form-label">Confirmar Contraseña</label>
-          <input  type="email" class="form-control col-smid="exampleFormControlInput1" placeholder="name@example.com"></input>
+          <input  type="text" class="form-control col-smid="exampleFormControlInput1" placeholder="contrasenya"></input>
           </div>
           <br>
           <button type="submit" class="btn btn-primary mb-3">Registrarse</button>
