@@ -39,20 +39,40 @@ section h2
 
 .logo
 {
-  width:40px;
-  height:40px;
+ width:80px;
+  height:70px;
   border-radius:50px;
+  background:url('https://i.ibb.co/TM2SZ0Jc/Starlight-games2.png');
+   background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
   
 }
 
+.Bloque-Header{
+  
+  display:flex;
+  flex-direction:row reverse;
+
+}
 .Cabecera
 {
-   width: 100vw;
+  width:70%;
+ width: 70vw;
   height: 100vh;
-  background-image: url('https://placedog.net/4000/400');
+  background-image: url('https://i.ibb.co/Rpqj7Lsc/oxenfree-mejores-juegos-indie.webp');
   background-size: cover!important;
   background-repeat: no-repeat!important;
   background-position: center!important;
+ 
+}
+
+.Anuncio
+{
+  background:url('https://placehold.co/597x917');
+  width:30%;
+  width: 30vw;
+  height: 100vh;
 }
 
 .formulario
